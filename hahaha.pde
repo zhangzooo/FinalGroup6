@@ -439,6 +439,8 @@ void initGamePart3() {
   freeze = new Freeze(1315, 220);
 
   gameTimer = GAME_INIT_TIMER;
+  collectCount = 0;
+  cupNum = 0;
 }
 
 
